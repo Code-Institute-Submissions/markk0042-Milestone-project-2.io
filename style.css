@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(173, 173, 173);
+}
+
+
+.navbar-text {
+    color: rgb(165, 161, 161)
+}
+
+.jumbotron {
+background: #444;
+margin-bottom: 310px;
+opacity: 0.9;
+background: url(/assets/images/image1.jpg) no-repeat center center;
+}
+
+
+.jumbotron h1 {
+    color: rgb(241, 238, 238);
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: white;
+    font-family: 'Carter One', cursive, sans-serif;
+}
+
+.lead {
+    color:#fff;
+    margin: 25px 0;
+}
+
+.jumbotron-terms {
+    color: #fff;
+    font-size: 20px;
+}
+
+.block-divider--GREY {
+       color: #fff;
+}
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #fff;
+    }
