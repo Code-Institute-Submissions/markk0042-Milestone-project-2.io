@@ -1,9 +1,13 @@
+.navbar{
+    background-color: rgb(77, 74, 74);
+}
+
 body {
   background-color: rgb(173, 173, 173);
 }
 
 .navbar-text {
-  color: rgb(165, 161, 161);
+  color: #fff;
 }
 
 .jumbotron {
@@ -43,7 +47,12 @@ body {
 }
 .images-on-slider{
     width: 100%;
-    padding: 25px;
-    max-height: 550px;
+    height: 450px;
+    padding: 35px;
     position: center;
+}
+
+.footer-background{
+background-color: rgb(99, 97, 97);
+
 }
