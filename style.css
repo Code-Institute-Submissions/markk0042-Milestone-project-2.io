@@ -41,3 +41,9 @@ body {
   border: 0;
   background-color: #fff;
 }
+.images-on-slider{
+    width: 100%;
+    padding: 25px;
+    max-height: 550px;
+    position: center;
+}
