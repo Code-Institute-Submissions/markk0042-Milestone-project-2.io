@@ -5,7 +5,6 @@ body {
 .jumbotron {
   background: #444;
   margin-bottom: 300px;
-  margin-top: -20px;
   opacity: 0.9;
   background: url(/assets/images/image1.jpg) no-repeat center center;
 }
@@ -93,4 +92,29 @@ body {
 
 .footer-text {
   color: #fff;
+}
+/*--Tour-page-*/
+
+.tour-title-heading{
+color: #fff;
+font-family:sans-serif;
+text-align: center;
+}
+
+.tour-text{
+color: #fff;
+font-family:sans-serif;
+}
+
+.heading-of-page{
+    color: #fff;
+font-family:sans-serif;
+text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .find-us-footer{
+    margin-bottom: 0px;
+    padding: 0px;
+  }
 }
