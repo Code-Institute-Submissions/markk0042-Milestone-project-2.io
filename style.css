@@ -1,12 +1,13 @@
 body {
-  background-color: rgb(173, 173, 173);
+  background-color: rgb(136, 133, 133);
 }
 
 .jumbotron {
   background: #444;
-  margin-bottom: 300px;
+  margin-bottom: 400px;
   opacity: 0.9;
-  background: url(/assets/images/image1.jpg) no-repeat center center;
+
+  background: url(/assets/images/image-jumbotron.webp) no-repeat center center;
 }
 
 .jumbotron h1 {
@@ -39,8 +40,8 @@ body {
 }
 .images-on-slider {
   width: 100%;
-  height: 450px;
-  padding: 35px;
+  height: 400px;
+  padding: 0px;
   position: center;
 }
 .quotes-footer {
@@ -97,19 +98,21 @@ body {
 
 .tour-title-heading{
 color: #fff;
-font-family:sans-serif;
 text-align: center;
+font-family: 'Tangerine', cursive;
+
 }
 
 .tour-text{
 color: #fff;
-font-family:sans-serif;
+font-family: 'Philosopher', sans-serif;
 }
 
 .heading-of-page{
-    color: #fff;
-font-family:sans-serif;
+color: #fff;
 text-align: center;
+font-family: 'Tangerine', cursive;
+
 }
 
 @media only screen and (max-width: 600px) {
