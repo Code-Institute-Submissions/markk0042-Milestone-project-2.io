@@ -3,15 +3,14 @@ body {
 }
 
 .jumbotron {
-  background: #444;
-  margin-bottom: 400px;
-  opacity: 0.9;
-
+  margin-bottom: 150px;
+  opacity: 0.7;
+  background-color: black;
   background: url(/assets/images/image-jumbotron.webp) no-repeat center center;
 }
 
 .jumbotron h1 {
-  color: rgb(241, 238, 238);
+    color: #fff;
   font-weight: bold;
   margin-bottom: 30px;
   font-family: "Carter One", cursive, sans-serif;
@@ -36,6 +35,14 @@ body {
   height: 5px;
   border: 0;
   background-color: #fff;
+}
+
+.container{
+text-align: center;
+margin: auto;
+padding: 20px;
+
+
 }
 .images-on-slider {
   width: 100%;
@@ -114,9 +121,13 @@ font-family: 'Tangerine', cursive;
 
 }
 
+
 @media only screen and (max-width: 600px) {
     .find-us-footer{
     margin-bottom: 0px;
     padding: 0px;
   }
 }
+/*--Timetable-page-*/
+
+
