@@ -37,6 +37,15 @@ body {
   background-color: #fff;
 }
 
+.about-us{
+color: #fff;
+font-family: 'Philosopher', sans-serif;
+}
+.about-us-link{
+color: #fff;
+
+}
+
 .container{
 text-align: center;
 margin: auto;
@@ -128,6 +137,8 @@ font-family: 'Tangerine', cursive;
     padding: 0px;
   }
 }
-/*--Timetable-page-*/
-
-
+/*--Maps-page-*/
+div#map{
+    min-height: 360px;
+    width: 100%;
+}
