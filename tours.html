@@ -234,19 +234,19 @@
     });
 */
 
-addMarker({lat:53.3419, lng:-6.3098});
-addMarker({lat:52.6505, lng:-7.2493});
-addMarker({lat:53.6947, lng:-6.4755});
-addMarker({lat:53.342686, lng:-6.267118});
-addMarker({lat:53.328053, lng:-8.224597});
-addMarker({lat:52.0412, lng:-9.5314});
-addMarker({lat:52.3210, lng:-6.9337});
+addMarker({coords:{lat:53.3419, lng:-6.3098}});
+addMarker({coords:{lat:52.6505, lng:-7.2493}});
+addMarker({coords:{lat:53.6947, lng:-6.4755}});
+addMarker({coords:{lat:53.342686, lng:-6.267118}});
+addMarker({coords:{lat:53.328053, lng:-8.224597}});
+addMarker({coords:{lat:52.0412, lng:-9.5314}});
+addMarker({coords:{lat:52.3210, lng:-6.9337}});
 
-function addMarker(coords){
+function addMarker(props){
      var marker = new google.maps.Marker({
-        position: coords,
+        position: props.coords,
         map:map
-    });
+            });
 }
     }
     </script>
