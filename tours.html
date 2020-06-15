@@ -218,13 +218,36 @@
         });
     
     
-
+/*
     var map = new google.maps.Marker({
         position:{lat:53.3419, lng:-6.3098},
         map:map
 
     });
 
+    var infoWindow = new google.maps.InfoWindow({
+    content:'<h1>Lynn, MA</h1>'
+    });
+
+    marker.addListener('click', function(){
+    infoWindow.open(map, marker);
+    });
+*/
+
+addMarker({lat:53.3419, lng:-6.3098});
+addMarker({lat:52.6505, lng:-7.2493});
+addMarker({lat:53.6947, lng:-6.4755});
+addMarker({lat:53.342686, lng:-6.267118});
+addMarker({lat:53.328053, lng:-8.224597});
+addMarker({lat:52.0412, lng:-9.5314});
+addMarker({lat:52.3210, lng:-6.9337});
+
+function addMarker(coords){
+     var marker = new google.maps.Marker({
+        position: coords,
+        map:map
+    });
+}
     }
     </script>
    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYR4ym-GHC7kIybrwbbJpby6TL4PXZwAg&callback=initMap"></script>
