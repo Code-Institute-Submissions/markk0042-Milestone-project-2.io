@@ -37,6 +37,19 @@ body {
   background-color: #fff;
 }
 
+.quotes-container{
+    background-color: #fff;
+}
+.blockquote-footer, .blockquote{
+color: rgb(117, 115, 115);
+
+}
+.reviews,{
+color: #fff;
+text-align: center;
+
+}
+
 .about-us{
 color: #fff;
 font-family: 'Philosopher', sans-serif;
