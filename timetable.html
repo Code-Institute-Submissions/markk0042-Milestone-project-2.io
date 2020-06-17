@@ -286,6 +286,17 @@
     </div>
        </div>
 	</div>
+    <div id="map"></div>
+    <script>
+
+    var map;
+function initMap() {
+  map = new google.maps.Map(document.getElementById("map"), {
+    center: {lat: 53.1424, lng: -7.6921},
+    zoom: 7
+  });
+}
+    </script>
 	<!--Footer-Area-->
 	<footer class="page-footer font-small pt-4 footer-background footer-background-tours">
 
