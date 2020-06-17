@@ -62,6 +62,7 @@ text-align: center;
 .about-us{
 color: #fff;
 font-family: 'Philosopher', sans-serif;
+
 }
 .about-us-link{
 color: #fff;
@@ -178,6 +179,10 @@ margin-bottom: 10px;
 .my-col{
     border: 1px solid rgb(75, 73, 73);
     background-color:  #f5f2d0;
+}
+.bus-depo-heading{
+    margin: auto;
+    position: relative;
 }
 /*--Maps-page-*/
 div#map{
