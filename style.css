@@ -3,7 +3,7 @@ body {
 }
 
 .jumbotron {
-  margin-bottom: 150px;
+  margin-bottom: 130px;
   opacity: 0.7;
   background-color: black;
   background: url(/assets/images/image-jumbotron.webp) no-repeat center center;
@@ -37,17 +37,25 @@ body {
   background-color: #fff;
 }
 
+.review-header{
+font-size: 50px;
+
+
+}
 .quotes-container{
     background-color: #fff;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+
 }
 .blockquote-footer, .blockquote{
 color: rgb(117, 115, 115);
 
 }
-.reviews,{
+.reviews {
 color: #fff;
 text-align: center;
-
 }
 
 .about-us{
