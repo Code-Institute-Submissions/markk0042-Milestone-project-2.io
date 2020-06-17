@@ -43,14 +43,15 @@ font-size: 50px;
 
 }
 .quotes-container{
-    background-color: #fff;
+    color: #fff;
     width: 100%;
     padding: 0px;
     margin: 0px;
+    
 
 }
 .blockquote-footer, .blockquote{
-color: rgb(117, 115, 115);
+color: #fff;
 
 }
 .reviews {
@@ -160,7 +161,9 @@ font-family: 'Tangerine', cursive;
 }
 
 /*timetable-page*/
-
+.my-container-1{
+margin-bottom: 10px;
+}
 .my-container{
     border: 2px solid rgb(75, 73, 73);
     background-color:  #f5f2d0;
