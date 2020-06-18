@@ -17,6 +17,7 @@
       <script src="script.js" async></script>
    </head>
    <body>
+   <!--NavBar-->
       <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
          <a class="navbar-brand" href="index.html"> <i class="fas fa-globe-europe"></i>Ireland Tours</a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,11 +37,12 @@
             </ul>
          </div>
       </nav>
+      <!--Timetable-Information-->
       <div class="container about-us">
          <div class="about-us">
             <h3>Travel & Timetable Information</h3>
             <hr class="block-divider block-divider--GREY">
-            <p>Timetables can be printed out or saved by clicking <a><button>Here</button></a>. Each tour individually listed is included with the bus transfer price, you can pay for tickets at the depot before departure
+            <p>Timetables can be downloaded or saved by clicking the download me link under either timetable needed. Each tour individually listed is included with the bus transfer price, you can pay for tickets at the depot before departure
                , or save time and hassle and purchase online to safely secure your seats. Our tour guides are Multi-lingual experts for translations. Depending on the tour(s) chosen,
                usually tours furthest will depart earlier in the day, Coach journey times can range between 1-4 hours that include stop offs and lunch breaks. Coaches are fitted with on board toilets,
                charger ports and also complementary headphones to use on-board. 
@@ -50,6 +52,7 @@
             </div>
          </div>
       </div>
+      <!--Timetable-Schedule-->
       <div class="container my-container my-container-1">
          <div class="row">
             <div class="col">
@@ -125,6 +128,9 @@
                OAP:€8 <br>Adult:€14:99 <br>Family:€24:99
             </div>
          </div>
+          <div class="table-button">
+      <a href="assets/timetable-download/dublin-table.png"target="_blank"><button>Download Me</button></a>
+      </div>
       </div>
       <div class="container my-container my-container-1">
          <div class="row">
@@ -201,6 +207,9 @@
                OAP:€8 <br>Adult:€14:99 <br>Family:€24:99
             </div>
          </div>
+          <div class="table-button">
+      <a href="assets/timetable-download/galway-timetable.png"target="_blank"><button>Download Me</button></a>
+      </div>
       </div>
       <div class="container my-container my-container-1">
          <div class="row">
@@ -277,8 +286,13 @@
                OAP:€8 <br>Adult:€14:99 <br>Family:€24:99
             </div>
          </div>
+          <div class="table-button">
+      <a href="assets/timetable-download/dublin-timetable.png"target="_blank"><button>Download Me</button></a>
       </div>
+      </div>
+<!--API-JS-Map-->
       <div id="map"></div>
+
       <script>
          var map;
          function initMap() {
