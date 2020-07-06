@@ -34,6 +34,9 @@
                <li class="nav-item">
                   <a class="nav-link" href="tours.html"> <i class="fas fa-map-marked-alt"></i>Tours</a>
                </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="contact.html"> <i class="fas fa-calendar-alt"></i>Contact</a>
+               </li>
             </ul>
          </div>
       </nav>
@@ -300,6 +303,18 @@
          center: {lat: 53.1424, lng: -7.6921},
          zoom: 7
          });
+         
+
+         addMarker({coords:{lat:53.270962, lng:-9.062691}});
+         addMarker({coords:{lat:53.343165294, lng:-6.251332328}});
+         addMarker({coords:{lat:54.6563, lng:-6.2171}});
+         
+         function addMarker(props){
+          var marker = new google.maps.Marker({
+             position: props.coords,
+             map:map
+                 });
+         }
          }
          
       </script>
