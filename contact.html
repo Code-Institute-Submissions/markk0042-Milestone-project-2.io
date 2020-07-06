@@ -14,6 +14,18 @@
       <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital@1&family=Tangerine:wght@700&display=swap"
          rel="stylesheet">
       <link rel="stylesheet" href="style.css" type="text/css">
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_dg4BvOY5CVCLgklAPM3Ff");
+       emailjs.send("gmail", "ireland_tours", {
+                name: "Aaron",
+                notes: "The project that I want is..."
+                 })
+   })();
+</script>
    </head>
    <body>
    <!--NavBar-->
@@ -39,6 +51,29 @@
             </ul>
          </div>
       </nav>
+      <!--Email-API-->
+       <section class="container-fluid">
+        <div class="row bg-color-contact">
+            <div>
+                <h3 class="contact-heading uppercase text-center">Got a project in mind?</h3>
+                <h5 class="uppercase text-center">Let's work together</h5>
+            </div>
+            <div class="center-form">
+                <form>
+                <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project Description" required></textarea>
+                <button type="submit" class="btn btn-secondary center-block">Send Project Request</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
       <!--Footer-Area-->
       <footer class="page-footer font-small pt-4 footer-background footer-background-tours">
          <div class="container-fluid text-center text-md-left">

@@ -184,3 +184,9 @@ div#map {
   width: 100%;
   border: 3px solid #fff;
 }
+
+.bg-color-contact{
+    width: 100%;
+    padding: 15px;
+    position: center;
+}
