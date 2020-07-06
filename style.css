@@ -185,8 +185,11 @@ div#map {
   border: 3px solid #fff;
 }
 
-.bg-color-contact{
-    width: 100%;
-    padding: 15px;
-    position: center;
+
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 75%;
+    }
 }
