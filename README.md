@@ -92,18 +92,26 @@ I would also like to add a video compilation of different tours that capture dif
 
 
 ## Testing
-All links function as expected, but the social media links will open the main page of that particular platform.
-The "Send us your details" button will return to the home section.
-Custom CCS code is written for every button comfort design.
+All links function as expected, the social media links will open the link on a new page using target_blank method.
+The "Send Query" button on the contact page will inniatiate the SDK used from email.js to send my email a copy of the users query with their name and email attached to the email the send.
+The site when firstly launched was tested by 15 people of my choice, some reported the jumbotron image was noit loading this was due to the css not having,
 
-This site was tested across multiple screen sizes on Chrome, Safari and Internet Explore
-To ensure compatibility and responsiveness it was also tested on an android based mobile device (OnePlus5).
-When the webpage is visited on larger screens a blue box is shown on the upper right side of the screen.
-This will disappear on smaller screens the box is used for direct to call actions and social media.
-A navigation bar is shown all the time and will transform to an option bar on smaller phone screens.
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
 
-The text and card-decks will properly align on every screen size. The card-decks have some extra CSS code to improve alignment of the content within the cards.
-The footer will place the text beneath each other to make it better readable for smaller screens.
+Once these were added the image then rendered 10-15 minutes later  and succesfully appeared.
+The site was tested across multiple screen sizes and devices on Chrome, Safari and Internet Explorer via Apple, Samsung, Tablets etc. this was to ensure device compatibility and responsiveness.
+When the webpage is visited on larger screens the review section appears with images, on smaller devices the images disappear to fit better.
+A navigation bar is shown all the time on the top of the page and will change to an option bar on smaller phone screens and tablets.
+The download buttons on each timetable work and open a new window/tab.
+
+The APIs for the google maps work on all devices, with scrolling and zooming function, with the markers indicated on both maps on all devices.
+
+The SDK from email.js works on all devices big and small, fits nicely on all devices, when details are entered into the contact us boxes, if the email box does not contain a valid email it will return the statement "enter a valid email address" and will not submit the form until this is done. When entered correctly and sent the email linked to the SDk template, will recieve a corresponding email from this site, I have tested this on 15 devices and all sent the email through successfully.
+
+
+The footer will place the links and text beneath each other to make it more readable and better layout for smaller screens to ensure they fit neatly.
 
 ## Bugs:
 
