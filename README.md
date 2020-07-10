@@ -76,7 +76,7 @@ I used Font Awesome to improve the blandness of the site to create icons represe
 3. Bootstrap4 - *For layouts and platform responsiveness*
 4. Figma - *To create a wireframe*
 5. Javascript - *To make the site interactive, and responsive*
-6. APIs - * To add features to the website, making it more interactive* 
+6. APIs - *To add features to the website, making it more interactive* 
 
 
 ## Features:
