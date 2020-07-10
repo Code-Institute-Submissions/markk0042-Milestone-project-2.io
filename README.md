@@ -28,7 +28,8 @@ I aimed to make the website as clear as possible to the user to promote the Tour
 To have a simple layout, structure, and not over powered website, with the main focus on the companies services, products and features.
 To promote deals, and prices for all ages and discounts at certain T&Cs.
 
-## User stories
+## User stories:
+
 By research of asking friends, family, work colleagues and neighbours, I wanted to find out what they would like to see on the website, how it can help people who do not know much or Ireland in regards to history.
 I asked for the most beneficial elements that would be essential for them to have ability to view on it:
 
@@ -42,54 +43,56 @@ I asked for the most beneficial elements that would be essential for them to hav
  - As a user of the tour site, I would find it beneficial for the youth that there is social links which could represent deals, images, and information regarding the tours, site and any change to schedules. ( **Social links in footer**).
  - As a user of the tour site, I think some history of each attraction and details where theyre situated would benefit sales more as some history may appeal differently to others.. (**Tour page**)
 
-### Strategy
-The goal in the design was to make it as easy as possible to access, short and an informative B2B based site,
-while striving for a minimalist and user-friendly design as possible.
+### Site Strategy:
 
-### Scope
+The goal in the design of my site was to make it as easy accessable to the user, short and an informative information with the ability to provide further information if the user requests it,
+while aiming for a easy user-friendly layout and design as possible.
+
+### Scope:
+
 For B2B visitors, we wanted to provide them with a short overview of the products and the companies strongest points.
 This way, they would be able to get a glimpse of what the company sells and if it is a trustworthy partner to do business with.
 
-### Structure
+### Structure:
+
 The site is structured to get the right information as quickly as possible.
 Contact information on the top and further down buttons to get to the contact form.
 A navigation bar that's always available to quickly scroll between pages.
 The proper order of the pages is created to trigger the reader to contact us.
 
-### Skeleton
+### Skeleton:
+
 By using figma the following wireframes were created:
+()
 
-[EL1TE wireframe](https://github.com/D1ang/EL1TE/blob/master/mockups/wireframe.pdf)
+### Surface:
+I used White and Grey colours so they were not harsh on the eye and text would be easily readable.
+I used font styles from Google Fonts, to improve the look of the site to make it less boring and more interesting.
+I used Font Awesome to improve the blandness of the site to create icons representing what the navbar options were.
 
-[Responsive phone wireframe](https://github.com/D1ang/EL1TE/blob/master/mockups/responsive.pdf)
-
-### Surface
-The colours blue and orange were used to create a high energy "sport" like feel.
-After a short Google search for the most used Google Fonts on sport sites, Oswald was chosen on its popularity and demand.
-The buttons are styled as blocks to be in comformt with the header block and to keep the style in check with the blue call to action block.
-
-## Technologies
+## Technologies Used:
 1. HTML - *To create a basic site*
-2. CSS - *To create a nice style and to stand-out*
-3. Bootstrap - *To improve responsiveness*
+2. CSS - *To style the site and to stand-out to the eye*
+3. Bootstrap4 - *For layouts and platform responsiveness*
 4. Figma - *To create a wireframe*
+5. Javascript - *To make the site interactive, and responsive*
+6. APIs - * To add features to the website, making it more interactive* 
 
 
-## Features
-This site uses a parallax scrolling effect in CSS to create a subtle element of depth that results in a distinctive and memorable website. 
-The navbar collapsed on smaller screen sizes to be useful for phones and will be available on every page.
-On larger screens a "call to action" blue box wil appear so user can contact more quickly without scrolling through the page.
-by using Smooth Scrolling a scroll effect has been added as the site felt a bit sluggish.
-The buttons are created to move the user to the contact page as this would be the final step that we would like to achieve.
+## Features:
+The navbar when used on smaller devices will be collapsed into a hamburger style dropdown menu on smaller screen sizes to be useful for phones and tablets and will be available on every page.
+On larger screens the navbar will be fully displayed across the screen and all sections will fit the screen to size.
+The button on the main page was created to move the user to the Tour page instantly by clicking it without having to look to the nav bar for the tour details.
 
 
 ### Features Left to Implement
-In the future, we would like to add an order system with a login so existing customers can order more products easily.
-Also, we would like to add some animations to the cards in the products and prices section to move on the page when the section is scrolled to. 
+In the future, we would like to add an option to make purchases on the website, enter discount codes for the elderly, students, families etc.
+Also, I would like to add a FAQ section for future people interested in the tours that could ask questions that others have experienced. 
+I would also like to add a video compilation of different tours that capture different parts of the tours, different parts of ireland and maybe some past experience reviews.
 
 
 ## Testing
-All links will function, but the social media links will open the main page of that particular platform.
+All links function as expected, but the social media links will open the main page of that particular platform.
 The "Send us your details" button will return to the home section.
 Custom CCS code is written for every button comfort design.
 
@@ -114,20 +117,9 @@ The site felt a bit sluggish when scrolling with the buttons to different pages.
 [w3schools.com](https://www.w3schools.com/howto/howto_css_smooth_scroll.asp)
 By using Smooth Scroll the navigation buttons to the pages will react more fluid.
 
-### Navbar hamburger icon:
-The navigation bar hamburger icon that shows on smaller screens had an outline when pressed, and jumped a few pixels up.
-This has been fixed by adding a top-padding of 3 pixels in the style and by adding the following code:
-
->.navbar-toggler:focus,
->.navbar-toggler:active {
->	outline: none;
->	box-shadow: none;
->}
-
 
 The following tests have been used to ensure proper site functionality:
 
-- [GTmetrix](https://gtmetrix.com/): To test on website loading times
 - [W3C HTML Validator](https://validator.w3.org/): This validator checks the markup validity of Web documents in HTML.
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/): This validator checks the markup validity of Web documents in CSS.
 - [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB): Inspecting on overflow errors
