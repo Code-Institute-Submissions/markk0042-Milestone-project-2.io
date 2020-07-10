@@ -113,29 +113,15 @@ The SDK from email.js works on all devices big and small, fits nicely on all dev
 
 The footer will place the links and text beneath each other to make it more readable and better layout for smaller screens to ensure they fit neatly.
 
-## Bugs:
-
-### Card-decks responsive:
-The standard Bootstrap functions gave problems with the content inside cards. On card-decks the content got squashed so a solution needed to be found.
-[stack overflow](https://stackoverflow.com/questions/48406628/bootstrap-align-button-to-the-bottom-of-card)
-This solution steps away from the regular bootstrap grid and uses a workaround in CSS to fix the responsive problems.
-
-### Scrolling:
-The site felt a bit sluggish when scrolling with the buttons to different pages.
-[w3schools.com](https://www.w3schools.com/howto/howto_css_smooth_scroll.asp)
-By using Smooth Scroll the navigation buttons to the pages will react more fluid.
-
-
 The following tests have been used to ensure proper site functionality:
 
-- [W3C HTML Validator](https://validator.w3.org/): This validator checks the markup validity of Web documents in HTML.
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/): This validator checks the markup validity of Web documents in CSS.
+- [W3C HTML Validator](https://validator.w3.org/): This is a validator that checks the markup of Web documents in HTML.
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/): This is a validator that checks the markup validity of Web documents in CSS.
 - [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB): Inspecting on overflow errors
 - [Autoprefixer CSS online](https://autoprefixer.github.io/): Autoprefixer is a PostCSS plugin which parses your CSS and adds vendor prefixes
 
-
 ## Deployment
-This site is hosted using GitHub pages via my repositories, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch(I have noticed a short delay inmage rendering once pushed to the master branch for website viewing on a live demo). In order for the site to deploy correctly on GitHub pages, the landing page must be named `index.html` and not inside any files or folders.
+This site is hosted using GitHub pages on my repositories, its deployed directly from the master branch. The deployed site will update automatically when a  new commit(s) to the master branch(I have noticed a short delay image rendering once pushed to the master branch for website viewing on a live demo). In order for the site to deploy correctly on GitHub pages, the landing page must be named `index.html` and not inside any files or folders.
 
 To run locally, you can clone this repository directly into the editor of your choice by pasting the link into your terminal on your computer
 To cut any ties with this GitHub repository, type `git remote rm origin` into the terminal and this will remove the origin of the repo.
@@ -144,15 +130,20 @@ To cut any ties with this GitHub repository, type `git remote rm origin` into th
 ## Credits
 
 ### Content
-I copied information from () for the information on the tour section, the timetable information and layout, I used and created and styled, the quotes I used were from ()
+I used information from 
+(https://www.roadaffair.com/best-places-to-visit-in-ireland/).
+(https://en.wikipedia.org/wiki/List_of_tourist_attractions_in_Ireland).,
+for the information on the tour section, then the quotes I used were from 
+(https://quotabulary.com/famous-irish-quotes).
 
 ### Media
-All photos were taken from [Adobe Stock](https://stock.adobe.com/), a stock image library.
-All material from Adobe Stock are licensed with a paid account.
-
+All photos were taken from [Pixabay](https://pixabay.com/), a stock image library.
+also from [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia:Public_domain_image_resources).
 
 ### Acknowledgements
 
-- The Parallax Scrolling effect was found on w3schools.com [link](https://www.w3schools.com/howto/howto_css_parallax.asp) (by mentor advice)
-- Fixing the card-decks responsiveness [link](https://stackoverflow.com/questions/48406628/bootstrap-align-button-to-the-bottom-of-card)
-- The following site [link](https://www.mbsportswear.nl/) was used as an insparation for the navigation bar and blue "call to action" box.menu-not-working)
+- The Navbar Scrolling effect was found on Bootstrap4 [link](https://getbootstrap.com//howto_css_parallax.asp).
+- The Carousel image slider was found on [link](https://getbootstrap.com//howto_css_parallax.asp).
+- The Footer was found on [link](https://mdbootstrap.com/docs/jquery/?utm_ref_id=57491).
+- Google Maps APIs [link](https://developers.google.com/maps/documentation/javascript/tutorial).
+- The SDK Email.js [link](https://www.emailjs.com/).
