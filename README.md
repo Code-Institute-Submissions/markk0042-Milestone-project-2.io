@@ -1,13 +1,15 @@
-MILESTONE PROJECT 2: Interactive Frontend Development - Code Insititute
+# MILESTONE PROJECT 2: Interactive Frontend Development - Code Insititute
 
 HI reader,
 
-Welcome to my Milestone two project for code Institutes 2nd of 4 projects for my journey to become a full stack developer.
+### Welcome to my Milestone two project for code Institutes 2nd of 4 projects for my journey to become a full stack developer.
 
-DEMO:
-My wireframe mockup is attached to my repository on github for viewing. A live demo version of my website in action can be found here Gym Site-Image
+## DEMO:
+My wireframe mockup is attached to my repository on github for viewing.
+A live demo version can be found **[here](https://markk0042.github.io/Milestone-project-2.io/)**
 
-Introduction:
+
+## Introduction:
 In my current project I picked to do it on, is about a Tourism site, showcasing Irelands top 7 tourist attractions throughout ireland (according to reports from @IrishCentral
 May 13, 2015). I chose this project because Ireland is amongst the top 10 countries in Europe for visitng as a city break, and why not see other parts of the fabulous country
 of Ireland while here!. In this website you will see a standard navbar structure, with a Jumbotron of a beautiful image of the cliffs of Moher in the backroung, 
@@ -15,96 +17,142 @@ with a company slogan on the front of the image. Then as you scroll down there i
 location of where each image is from in the Country/Region, with the option to view them slowly when they automatically slide by function or by the user clicking 
 on the arrows on either side of the image for previous or next.Then I have created a page outlining the images of a small detail of history of each attraction site,
 and adding a API to the base of the screen for the user to interact and see how far or near the different attractions are from them. There is also in the footer standard links  
-to the social networks, and contact details with adress also.There is a price page for if the user decides to take fantastic tour of the country at the various sites, 
-with different price ranges, OAPs, youth and family tickets, and a timetable of when the coaches leave the terminal each day for the tours.
+to the social networks, and contact details with adress also.There is a price page for if the user decides to take fantastic tour of the country at the various destinations, 
+with different price ranges, OAPs, youth and family tickets, and a timetable of when the coaches leave the terminal each day for the tours, with a downloadable feature of each timetable.
+Then on the contact page I added the email.js SDK file and set up the email function, giving the user the ability to contact the staff for further information regarding the features and dates etc.
+
+The main goal is to make the company known on the web and to trigger a new and broader interest of Ireland fabulous historical monuments and sites.
+
+## UX
+I aimed to make the website as clear as possible to the user to promote the Tourism company.
+To have a simple layout, structure, and not over powered website, with the main focus on the companies services, products and features.
+To promote deals, and prices for all ages and discounts at certain T&Cs.
+
+## User stories
+By research of asking friends, family, work colleagues and neighbours, I wanted to find out what they would like to see on the website, how it can help people who do not know much or Ireland in regards to history.
+I asked for the most beneficial elements that would be essential for them to have ability to view on it:
+
+### The following ideas came to mind:
+
+ - As a user of the tour site, I want to see if this company is priced well, compared to other sites of the same attraction. (**Timetable page**)
+ - As a user of the tour site, I want to know if this company can offer different destination to be picked up from besides Dublin. (**Tour Page**)
+ - As a user of the tour site, I want to know how much it will cost, is there any deals for family tickets or OAPs?.( **Timetable page**)
+ - As a user of the tour site, I would like to see customer reviews of previous tours that were undertaken. (**Main Landing page**)
+ - As a user of the tour site, I would like to see the option/ ability to have a email contact for the company, as work takes over my time and I wouldnt be able to ring during my 9-5 job. ( **Contact page on Nav**)
+ - As a user of the tour site, I would find it beneficial for the youth that there is social links which could represent deals, images, and information regarding the tours, site and any change to schedules. ( **Social links in footer**).
+ - As a user of the tour site, I think some history of each attraction and details where theyre situated would benefit sales more as some history may appeal differently to others.. (**Tour page**)
+
+### Strategy
+The goal in the design was to make it as easy as possible to access, short and an informative B2B based site,
+while striving for a minimalist and user-friendly design as possible.
+
+### Scope
+For B2B visitors, we wanted to provide them with a short overview of the products and the companies strongest points.
+This way, they would be able to get a glimpse of what the company sells and if it is a trustworthy partner to do business with.
+
+### Structure
+The site is structured to get the right information as quickly as possible.
+Contact information on the top and further down buttons to get to the contact form.
+A navigation bar that's always available to quickly scroll between pages.
+The proper order of the pages is created to trigger the reader to contact us.
+
+### Skeleton
+By using figma the following wireframes were created:
+
+[EL1TE wireframe](https://github.com/D1ang/EL1TE/blob/master/mockups/wireframe.pdf)
+
+[Responsive phone wireframe](https://github.com/D1ang/EL1TE/blob/master/mockups/responsive.pdf)
+
+### Surface
+The colours blue and orange were used to create a high energy "sport" like feel.
+After a short Google search for the most used Google Fonts on sport sites, Oswald was chosen on its popularity and demand.
+The buttons are styled as blocks to be in comformt with the header block and to keep the style in check with the blue call to action block.
+
+## Technologies
+1. HTML - *To create a basic site*
+2. CSS - *To create a nice style and to stand-out*
+3. Bootstrap - *To improve responsiveness*
+4. Figma - *To create a wireframe*
 
 
-UX:
-This site is aimed at all individuals, young or old, its a site advertising a gym and its features and offers a free extended period if you join, it has images of a pool, fitness classes and the gym, it has the option of taking Personal Trainer classes, swimming lessons, and also in the navbar has the option of booking a fitness class from the list given in the classes section. The extended period of time is added to entise people to buy the membership and the classes shown are to work together in groups having fun while getting fit, also if your new it has the option to book in with a personal trainers to show you and send you on the right path to get a fitter lifestyle.
-
-User Stories:
-By asking friends, family members and also members of the current community gym what they would like to see on the website when it is deployed, and most answers to this questions were:
-
-As a user of the gyms website, I want to see if this gym fits my goals. (Facilities Section on base of home page)
-As a user of the gyms website, I want to know how much it will cost for a 3 month plan to test it out. (price deal on jumbotron page)
-As a user of the gyms website, I want to know if there are Personal Training options. (Facilities Section on base of home page)
-As a user of the gyms website, I want to know how I can contact this company for further details. (Contact page on base of footer)
-As a user of the gyms website, I want to find quick access on the go preferable by my phone. (Responsive designed)
-As a user of the gyms website, I would like to see a gallery of the gym and members and classes, showing what they would look like.(Gallery Section)
-Features:
-In this section, I will go over different parts of my project in a short brief statement.
-
-In my nabar we have different sections a new customer or current can enter to view the gyms services and images. In the jumbotron we have a slogan then a T&C for age and also a promotion standing out for viewers. I added icons from font-awesome to my nav-bar to highlight or spice it up better for the eye, ive made them red so it jumps out I kept the navbar background white so both the text and icons can be seen better without issue. Ive made sure the home icon and also the name of the brand positioned in the top left corner are linked to the Index.html page so when you click either one it will bring you back to the main home page, so if the person using it is in the gallery or sign in page etc it will return them to the home page.
-
-Then I added a modal sign up button for new customers to sign up and create a username etc, and also a sign in button for existing customers in the top right of the nav bar so it is nice and tidy. I added a backround Image of a gym area and also made the opacity of my jumbotron 0.7 so the background could still be seen throught the jumbotron while scrolling. Then I added images to each info card showing features and explaining the features in the gym with buttons to enquire and timetables for the classes etc. Then in the footer we have accesible links to contact us, sign up to be a PT, contact us etc, with addreses and details etc, I added transition colors to my social network icons and added active links using target_blank to open a new page on the browser so our page is not lost while reaching the social media accounts.
-
-13/04/2020: I added a sign in button similar to the sign up modal used in the jumbotron but added to the nav using the btn btn-danger feature from bootstrap4 for members to sign in and when it minimises on mobile devices, the sign in button disapears but on the footer members can access the account via the members account link so there is still access for mobile users.
-
-Features Left to Implement:
-I would add a video section of a tour of the gym, show casing all of the facilities better, showing the staff, and maybe some customer reviews on the classes and how they find the gym etc, also i would add a blog section for customers and new to join customers to pass information, ask questions, and see live updates of the gym regarding new equipment, facilities to come, temporary closing times and more.
-
-Testing:
-All links in the navbar and the jumbotron will function, also the social networking icons on the footer will function except the useful links sections. The social media links will open on a new webpage using the _blank html attribute. The "sign up and sign in" button will open up the modals Ive created for them to function based on the users choice. Custom CCS code is written for every modals result, but I used the same button style (btn btn-danger) so the colors dont go opposite ways in regards to comparisson.
-
-The site was tested across multiple different screen sizes on Google Chrome, Safari on Iphones and Mac computers that support IOS and Internet Explorer, to ensure compatibility and full responsiveness it was also tested on an android mobile device (Samsung Galaxy). When the webpage is visited on larger screens the images return and as it goes smaller the images and some text becomes hidden from the eye.
-
-The text and card-decks showing the gyms facilities will properly align on every screen size. This is going to make it better readable for smaller screens.
-
-Changes I Made:
-I made some changes to my website after I had some viewers look at it and had oppionions and how they think it looks, some said the colors I used were bright, alot of mixed colors which were distracting to the eye, so I dampened down the colors to more easy on the eye colors arounf the document. I removed the classes drop down tab on my navbar from advice from my mentor, because he thought I had too much present on the navbar. I changed the colors of the block dividers and the facilities heading above my cards section to the same hexidecimal color as the danger btn color from bootstrap4 to match the red on the buttons arounf the site.
-
-Technologies Used:
-I used HTML
-I used CSS
-I used Bootsrap 4
-I used Javascript
-I used Google APIs
-I used Github and gitpod
-for my project. I added in the Jquery and Javascript links at the base of my HTML document to make my drop down menu active and make the website responsive when mobile version is iniatiated and also for my image carousel to work efficently on
-both desktop, mobile, and tablet devices.
-
-I used HTML for word typing and editting, adding features like rows, tables, images etc. CSS for styling the features in the html document and also styling the entire document. I used bootstrap4 for additional help and structured layouts for regions of my developing site and to speed up the building proccess, be better and have well formulated structures, also I used bootstrap for making buttons and navbar features.
-
-Different Browsers and screen sizes:
-In the webpage view this site looks really well, its responsive to the level I want it to be as in the nav-bar, sign up buttons working when clicked, the backroung image stays fixed as designed to do, the images and text on my card features down the page look good the images are a nice size, not too big not too small, the text fits perfect, all boxes are equal in size, the footer is well positioned and styled with nice color and icons with active links to social networks.
-
-On the mobile version The site is similar to the desktop version. EXCEPT I made sure to have a collapsable menu to make it tidier on smaller screens I also took the idea of reducing the information on smaller devices by using the display-block feature for the entire row of the personal trainer collumn and also the small images in each row, so it makes it more mobile friendly, looks nicer on the eyes, and its spaced better. Due to the nav-bar sign in feature for existing members being removed for mobile friendly devices, I added a membership account link down below in the footer for access for mobile users so they would have the ability to sign in on both forms of devices. (footer links not active as of yet)
-
-Deployment:
-Each time I reached a point during my website editing and ceation I pushed my project to github using the terminal commands and once I did that I rechecked the site github to verify that the update and projected was pushed succesfully with peace of mind. When deplying my website on Github Pages I came into a couple of problems where it wouldnt work for me because i didnt name my project with a .github.io at the ending of my repository so needed assistance resolving this from the slack community, also i had to watch some youtube videos and google theories on using github pages for assistance to fully understand how to use it better which it helped alot. I also had a issue when my gitpod master branch had seperated and wouldnt push to github until it was resolved, this caused a delay in deploying the website until the branch was brought back to the master branch.
-
-This site is hosted by using GitHub pages, it is deployed directly from the master branch. The idea of this is that the deployed site will update automatically when there are new commits to the master branch. for the site to be deployed correctly on GitHub pages, the landing page must be named index.html. if not this will not work, to run locally on your computer, you can clone this repository directly into the editor of your computer (e.g gitpod) by copying and pasting the link into your terminal. If anyone wanted to cut ties with this GitHub repository and remove the master branch, just type (git remote rm origin) into the terminal.
+## Features
+This site uses a parallax scrolling effect in CSS to create a subtle element of depth that results in a distinctive and memorable website. 
+The navbar collapsed on smaller screen sizes to be useful for phones and will be available on every page.
+On larger screens a "call to action" blue box wil appear so user can contact more quickly without scrolling through the page.
+by using Smooth Scrolling a scroll effect has been added as the site felt a bit sluggish.
+The buttons are created to move the user to the contact page as this would be the final step that we would like to achieve.
 
 
-Credits for all content and Technologies used:
-Content:
-The text mentioned in the tours page is quoted from:
-(https://www.irishcentral.com/roots/irelands-top-ten-free-tourist-attractions-photos-185866822-237557131)
+### Features Left to Implement
+In the future, we would like to add an order system with a login so existing customers can order more products easily.
+Also, we would like to add some animations to the cards in the products and prices section to move on the page when the section is scrolled to. 
 
-The footer/structure I used was from:
-("https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">)
-(link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">)
-(link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">)
-(link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">)
-(link href="https://fonts.googleapis.com/css2?family=Philosopher:ital@1&family=Tangerine:wght@700&display=swap" rel="stylesheet">)
-()
-()
-()
 
-The icons I used were from:
-(https://fontawesome.com/)
+## Testing
+All links will function, but the social media links will open the main page of that particular platform.
+The "Send us your details" button will return to the home section.
+Custom CCS code is written for every button comfort design.
 
-The navbar structure:
-(https://getbootstrap.com/docs/4.0/components/navbar/)
+This site was tested across multiple screen sizes on Chrome, Safari and Internet Explore
+To ensure compatibility and responsiveness it was also tested on an android based mobile device (OnePlus5).
+When the webpage is visited on larger screens a blue box is shown on the upper right side of the screen.
+This will disappear on smaller screens the box is used for direct to call actions and social media.
+A navigation bar is shown all the time and will transform to an option bar on smaller phone screens.
 
-Acknowledgement of Technologies and content I used are:
-I received inspiration for this project from many different people, sources etc. which are below,
+The text and card-decks will properly align on every screen size. The card-decks have some extra CSS code to improve alignment of the content within the cards.
+The footer will place the text beneath each other to make it better readable for smaller screens.
 
-Youtube tutorial how to videos for assistance:
-(https://youtu.be/Zxf1mnP5zcw)
+## Bugs:
 
-I used inspiration from previous in-class projects I completed in code Insititute, I gained support from slack members, also from videos on youtube to help me out alos and whilist searching the web for useful information.
+### Card-decks responsive:
+The standard Bootstrap functions gave problems with the content inside cards. On card-decks the content got squashed so a solution needed to be found.
+[stack overflow](https://stackoverflow.com/questions/48406628/bootstrap-align-button-to-the-bottom-of-card)
+This solution steps away from the regular bootstrap grid and uses a workaround in CSS to fix the responsive problems.
 
-I also used :
-(https://stackoverflow.com/questions/3898781/how-can-i-change-a-buttons-color-on-hover)
-(https://stackoverflow.com/questions/46026899/bootstrap-4-dropdown-menu-not-working)
+### Scrolling:
+The site felt a bit sluggish when scrolling with the buttons to different pages.
+[w3schools.com](https://www.w3schools.com/howto/howto_css_smooth_scroll.asp)
+By using Smooth Scroll the navigation buttons to the pages will react more fluid.
+
+### Navbar hamburger icon:
+The navigation bar hamburger icon that shows on smaller screens had an outline when pressed, and jumped a few pixels up.
+This has been fixed by adding a top-padding of 3 pixels in the style and by adding the following code:
+
+>.navbar-toggler:focus,
+>.navbar-toggler:active {
+>	outline: none;
+>	box-shadow: none;
+>}
+
+
+The following tests have been used to ensure proper site functionality:
+
+- [GTmetrix](https://gtmetrix.com/): To test on website loading times
+- [W3C HTML Validator](https://validator.w3.org/): This validator checks the markup validity of Web documents in HTML.
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/): This validator checks the markup validity of Web documents in CSS.
+- [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB): Inspecting on overflow errors
+- [Autoprefixer CSS online](https://autoprefixer.github.io/): Autoprefixer is a PostCSS plugin which parses your CSS and adds vendor prefixes
+
+
+## Deployment
+This site is hosted using GitHub pages via my repositories, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch(I have noticed a short delay inmage rendering once pushed to the master branch for website viewing on a live demo). In order for the site to deploy correctly on GitHub pages, the landing page must be named `index.html` and not inside any files or folders.
+
+To run locally, you can clone this repository directly into the editor of your choice by pasting the link into your terminal on your computer
+To cut any ties with this GitHub repository, type `git remote rm origin` into the terminal and this will remove the origin of the repo.
+
+
+## Credits
+
+### Content
+I copied information from () for the information on the tour section, the timetable information and layout, I used and created and styled, the quotes I used were from ()
+
+### Media
+All photos were taken from [Adobe Stock](https://stock.adobe.com/), a stock image library.
+All material from Adobe Stock are licensed with a paid account.
+
+
+### Acknowledgements
+
+- The Parallax Scrolling effect was found on w3schools.com [link](https://www.w3schools.com/howto/howto_css_parallax.asp) (by mentor advice)
+- Fixing the card-decks responsiveness [link](https://stackoverflow.com/questions/48406628/bootstrap-align-button-to-the-bottom-of-card)
+- The following site [link](https://www.mbsportswear.nl/) was used as an insparation for the navigation bar and blue "call to action" box.menu-not-working)
