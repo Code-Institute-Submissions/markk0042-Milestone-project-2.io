@@ -130,7 +130,9 @@ color: #fff;
 .linkedin-icon,
 .instagram-icon {
   color: #fff;
-    position: center;
+position: center;
+line-height: 30px;
+position: center;
 }
 
 .facebook-icon:hover {
