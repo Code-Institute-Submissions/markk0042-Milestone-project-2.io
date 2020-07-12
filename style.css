@@ -8,17 +8,16 @@ body {
 .navbar-custom {
     background-color: #5e5c5b;
 }
-/* change the brand and text color */
+
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
     color: rgba(255,255,255,.8);
 }
-/* change the link color */
+
 .navbar-custom .navbar-nav .nav-link {
     color: rgba(255,255,255,.5);
 }
 
-/* change the color of active or hovered links */
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
     color: #ffffff;
@@ -131,27 +130,27 @@ color: #fff;
 .linkedin-icon,
 .instagram-icon {
   color: #fff;
-
+    position: center;
 }
 
 .facebook-icon:hover {
-  color: #9cfa76;
+  color: #e84610;
   transition: all 0.1s ease-in-out;
   transform: scale(1.6);
 }
 .twitter-icon:hover {
-  color: #9cfa76;
+  color: #e84610;
   transition: all 0.1s ease-in-out;
   transform: scale(1.6);
 }
 
 .linkedin-icon:hover {
-  color: #9cfa76;
+  color: #e84610;
   transition: all 0.1s ease-in-out;
   transform: scale(1.6);
 }
 .instagram-icon:hover {
-  color: #9cfa76;
+  color: #e84610;
   transition: all 0.1s ease-in-out;
   transform: scale(1.6);
 }
@@ -210,6 +209,16 @@ color: #fff;
   margin: auto;
   position: relative;
 }
+
+.Terminal-above-map{
+
+    font-size: 35px;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+    font-family: "Tangerine", cursive;
+}
+
 /*--Maps-page-*/
 div#map {
   height: 335px;
@@ -218,19 +227,25 @@ div#map {
 }
 
 /*--Contact-page-*/
-.contact-heading-form{
-color: #fff;
-
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    color: #fff;
 }
+
+
 .center-form {
-  padding-top: 25px;
-  min-height: 240px;
-  margin: 0 auto;
-  margin-bottom: 30px;
-  max-width: 70%;
-  text-align: center;
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
 }
 
-.contact-heading-form {
-  margin-top: 30px;
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #e84610;
+    color: #fafafa;
 }
+
