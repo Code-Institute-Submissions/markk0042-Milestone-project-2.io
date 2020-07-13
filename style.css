@@ -23,6 +23,7 @@ body {
     color: #ffffff;
 }
 
+
 .fas{
 color: #fff;
 
@@ -103,6 +104,7 @@ color: #fff;
   text-align: center;
   margin: auto;
   padding: 20px;
+  
 }
 
 .images-on-slider {
@@ -110,10 +112,11 @@ color: #fff;
   height: 400px;
   padding: 20px;
   position: center;
+  
 }
 
 .carousel-caption{
-    color: #fff;
+color: #fff;
   font-weight: bold;
 }
 .quotes-footer {
@@ -162,7 +165,7 @@ line-height: 30px;
   transform: scale(1.6);
 }
 .footer-background {
-   background-color: #5e5c5b;
+   background-color: #343a40;
 }
 
 .footer-text {
@@ -231,6 +234,15 @@ div#map {
   height: 335px;
   width: 100%;
   border: 3px solid #fff;
+  padding: 25px;
+
+}
+
+.map-timetable{
+ height: 350px;
+  width: 100%;
+  border: 3px solid #fff; 
+  padding: 25px;
 
 }
 
