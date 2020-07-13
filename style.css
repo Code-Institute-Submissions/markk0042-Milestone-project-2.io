@@ -6,40 +6,38 @@ body {
 }
 
 .navbar-custom {
-    background-color: #5e5c5b;
+  background-color: #5e5c5b;
 }
 
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
-    color: rgba(255,255,255,.8);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .navbar-custom .navbar-nav .nav-link {
-    color: rgba(255,255,255,.5);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
-    color: #ffffff;
+  color: #ffffff;
 }
 
-
-.fas{
-color: #fff;
-
+.fas {
+  color: #fff;
 }
 
 .jumbotron {
   margin-bottom: 130px;
   opacity: 0.7;
   background: url("assets/images/cliff-of-morr.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .jumbotron h1 {
@@ -104,7 +102,6 @@ color: #fff;
   text-align: center;
   margin: auto;
   padding: 20px;
-  
 }
 
 .images-on-slider {
@@ -112,11 +109,10 @@ color: #fff;
   height: 400px;
   padding: 20px;
   position: center;
-  
 }
 
-.carousel-caption{
-color: #fff;
+.carousel-caption {
+  color: #fff;
   font-weight: bold;
 }
 .quotes-footer {
@@ -139,8 +135,8 @@ color: #fff;
 .linkedin-icon,
 .instagram-icon {
   color: #fff;
-position: center;
-line-height: 30px;
+  position: center;
+  line-height: 30px;
 }
 
 .facebook-icon:hover {
@@ -165,7 +161,7 @@ line-height: 30px;
   transform: scale(1.6);
 }
 .footer-background {
-   background-color: #343a40;
+  background-color: #343a40;
 }
 
 .footer-text {
@@ -220,13 +216,12 @@ line-height: 30px;
   position: relative;
 }
 
-.Terminal-above-map{
-
-    font-size: 35px;
-    margin: auto;
-    color: #fff;
-    text-align: center;
-    font-family: "Tangerine", cursive;
+.Terminal-above-map {
+  font-size: 35px;
+  margin: auto;
+  color: #fff;
+  text-align: center;
+  font-family: "Tangerine", cursive;
 }
 
 /*--Maps-Section-*/
@@ -235,37 +230,33 @@ div#map {
   width: 100%;
   border: 3px solid #fff;
   padding: 25px;
-
 }
 
-.map-timetable{
- height: 350px;
+.map-timetable {
+  height: 350px;
   width: 100%;
-  border: 3px solid #fff; 
+  border: 3px solid #fff;
   padding: 25px;
-
 }
 
 /*--Contact-page-*/
 .contact-heading {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 20px;
-    color: #fff;
+  font-family: "Exo", sans-serif;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: #fff;
 }
 
-
 .center-form {
-    padding-top: 10px;
-    margin: 0 auto;
-    max-width: 70%;
+  padding-top: 10px;
+  margin: 0 auto;
+  max-width: 70%;
 }
 
 button[type="submit"] {
-    margin-top: 15px;
-    margin-bottom: 20px;
-    background-color: #e84610;
-    color: #fafafa;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  background-color: #e84610;
+  color: #fafafa;
 }
-
