@@ -159,3 +159,4 @@ To cut any ties with this GitHub repository, type `git remote rm origin` into th
 - The SDK Email.js used was from[link](https://www.emailjs.com/).
 - The Icons were used from [Link](https://fontawesome.com/).
 - Font style was used from [Link](https://fonts.google.com/)
+- Indentation Formatting was used on[Link](https://www.freeformatter.com/html-formatter.html) To help clean the code up.
