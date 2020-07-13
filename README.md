@@ -143,17 +143,19 @@ To cut any ties with this GitHub repository, type `git remote rm origin` into th
 - I used assistance from youtube videos such as 
 (https://youtu.be/Zxf1mnP5zcw). As I ran into some issues with having my template, and map renerding on my site.
 - Assistance used for the API SDK amail.js (https://youtu.be/j_ilbyXwIzI).
-- I used Inspiration from `Code Institutes` form, from our previous projects to add a contact us form to my current project.
+- I used Inspiration from `Code Institutes` form style with the Javascript functionality file from my previous class project to enable the API SDK to work.
 
 ### Media
-All photos were taken from [Pixabay](https://pixabay.com/), a stock image library.
-also from [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia:Public_domain_image_resources).
-[Pexels](https://www.pexels.com/)
+- All photos were taken from [Pixabay](https://pixabay.com/), a stock image library.
+- All photos were taken from [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia:Public_domain_image_resources).
+- All photos were taken from [Pexels](https://www.pexels.com/).
 
 ### Acknowledgements
 
 - The Navbar Scrolling effect was found on Bootstrap4 [link](https://getbootstrap.com//howto_css_parallax.asp).
 - The Carousel image slider was found on [link](https://getbootstrap.com//howto_css_parallax.asp).
 - The Footer was found on [link](https://mdbootstrap.com/docs/jquery/?utm_ref_id=57491).
-- Google Maps APIs [link](https://developers.google.com/maps/documentation/javascript/tutorial).
-- The SDK Email.js [link](https://www.emailjs.com/).
+- Google Maps APIs used were from[link](https://developers.google.com/maps/documentation/javascript/tutorial).
+- The SDK Email.js used was from[link](https://www.emailjs.com/).
+- The Icons were used from [Link](https://fontawesome.com/).
+- Font style was used from [Link](https://fonts.google.com/)
