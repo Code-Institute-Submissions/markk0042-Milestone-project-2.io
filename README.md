@@ -110,6 +110,7 @@ The APIs for the google maps work on all devices, with scrolling and zooming fun
 
 The SDK from email.js works on all devices big and small, fits nicely on all devices, when details are entered into the contact us boxes, if the email box does not contain a valid email it will return the statement "enter a valid email address" and will not submit the form until this is done. When entered correctly and sent the email linked to the SDk template, will recieve a corresponding email from this site, I have tested this on 15 devices and all sent the email through successfully.
 
+When the console Log is checked upon using the site from github pages the concole does not return any errors found, all links work, along with tabs, image loading, ApIs, SDK, and Email.js with no returning errors after being reviewed.
 
 The footer will place the links and text beneath each other to make it more readable and better layout for smaller screens to ensure they fit neatly.
 
