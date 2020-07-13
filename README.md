@@ -50,20 +50,24 @@ while aiming for a easy user-friendly layout and design as possible.
 
 ### Scope:
 
-For B2B visitors, we wanted to provide them with a short overview of the products and the companies strongest points.
-This way, they would be able to get a glimpse of what the company sells and if it is a trustworthy partner to do business with.
+For up-coming visitors, I wanted to provide them with a short overview of the services and tours and some information of the company.
+So that they could get a glimpse/idea of what the company features/ promotes and if it is a trustworthy travel company, where the reviews could validate this and also staff assistance.
 
 ### Structure:
 
-The site is structured to get the right information as quickly as possible.
-Contact information on the top and further down buttons to get to the contact form.
-A navigation bar that's always available to quickly scroll between pages.
-The proper order of the pages is created to trigger the reader to contact us.
+The site is structured to get the right information as best and as efficent as possible.
+Contact information on the footer and also a contact form on the navbar to contact staff.
+A nav bar that's always available to quickly scroll between the different pages and constant access.
+The structure of the pages is created to trigger the reader to contact us as a final stage of them viewing the tours and timetables pages to intise the reader to want to query about it further.
 
 ### Skeleton:
 
-By using figma the following wireframes were created:
+By using Balsamic the following wireframes were created:
 Landing Page **[here](https://github.com/markk0042/Milestone-project-2.io/blob/master/Wireframe-home-page.png)**
+Timetable Page **[here](https://github.com/markk0042/Milestone-project-2.io/blob/master/Wireframe-home-page.png)**
+Tour Page **[here](https://github.com/markk0042/Milestone-project-2.io/blob/master/Wireframe-home-page.png)**
+Contact Us **[here](https://github.com/markk0042/Milestone-project-2.io/blob/master/Wireframe-home-page.png)**
+
 
 ### Surface:
 I used White and Grey colours so they were not harsh on the eye and text would be easily readable.
@@ -110,7 +114,7 @@ The APIs for the google maps work on all devices, with scrolling and zooming fun
 
 The SDK from email.js works on all devices big and small, fits nicely on all devices, when details are entered into the contact us boxes, if the email box does not contain a valid email it will return the statement "enter a valid email address" and will not submit the form until this is done. When entered correctly and sent the email linked to the SDk template, will recieve a corresponding email from this site, I have tested this on 15 devices and all sent the email through successfully.
 
-When the console Log is checked upon using the site from github pages the concole does not return any errors found, all links work, along with tabs, image loading, ApIs, SDK, and Email.js with no returning errors after being reviewed.
+When the console Log is checked upon using the site from github pages the console does not return any errors found, all links work, along with tabs, image loading, ApIs, SDK, and Email.js with no returning errors after being reviewed.
 
 The footer will place the links and text beneath each other to make it more readable and better layout for smaller screens to ensure they fit neatly.
 
@@ -133,17 +137,18 @@ To cut any ties with this GitHub repository, type `git remote rm origin` into th
 ### Content
 - I used information from 
 (https://www.roadaffair.com/best-places-to-visit-in-ireland/).
-(https://en.wikipedia.org/wiki/List_of_tourist_attractions_in_Ireland).,
+(https://en.wikipedia.org/wiki/List_of_tourist_attractions_in_Ireland).
 - For the information on the tour section, then the quotes I used were from 
 (https://quotabulary.com/famous-irish-quotes).
 - I used assistance from youtube videos such as 
 (https://youtu.be/Zxf1mnP5zcw). As I ran into some issues with having my template, and map renerding on my site.
+- Assistance used for the API SDK amail.js (https://youtu.be/j_ilbyXwIzI).
 - I used Inspiration from `Code Institutes` form, from our previous projects to add a contact us form to my current project.
-- 
 
 ### Media
 All photos were taken from [Pixabay](https://pixabay.com/), a stock image library.
 also from [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia:Public_domain_image_resources).
+[Pexels](https://www.pexels.com/)
 
 ### Acknowledgements
 

@@ -1,147 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>IrelandTours</title>
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
-         integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-      <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital@1&family=Tangerine:wght@700&display=swap"
-         rel="stylesheet">
-      <link rel="stylesheet" href="/style.css"  type="text/css">
-      <script type="text/javascript"
-         src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-      <script type="text/javascript">
-         (function(){
-            emailjs.init("user_dg4BvOY5CVCLgklAPM3Ff");
-         })();
-      </script>
-   </head>
-   <body>
-      <!--NavBar-->
-     <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-custom">
-         <a class="navbar-brand" href="index.html"> <i class="fas fa-globe-europe"></i>Ireland Tours</a>
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-               <li class="nav-item">
-                  <a class="nav-link" href="index.html"> <i class="fas fa-home"></i>Home <span class="sr-only">(current)</span></a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="timetable.html"> <i class="fas fa-calendar-alt"></i>Timetable</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="tours.html"> <i class="fas fa-map-marked-alt"></i>Tours</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="contact.html"> <i class="fas fa-calendar-alt"></i>Contact</a>
-               </li>
-            </ul>
-         </div>
-      </nav>
-      <!--Email-API-->
-      <section class="container-fluid">
-         <div class="row bg-color-contact">
-            <div class="col">
-               <h3 class="contact-heading uppercase text-center">Would like to speak to a sales agent?</h3>
-               <h5 class="uppercase text-center contact-heading">Fill in your details below, and we'll get back to you!</h5>
-               <div class="center-form">
-                  <form onsubmit="return sendMail(this);">
-                     <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required >
-                     <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required >
-                     <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Query Description..." required></textarea>
-                     <div class="form-row text-center">
-                        <div class="col">
-                           <button type="submit" class="btn btn-secondary">Send Query Request</button>
-                        </div>
-                     </div>
-                  </form>
-               </div>
-            </div>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IrelandTours</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital@1&family=Tangerine:wght@700&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="/style.css"  type="text/css">
+    <script type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function(){
+         emailjs.init("user_dg4BvOY5CVCLgklAPM3Ff");
+      })();
+    </script>
+  </head>
+  <body>
+    <!--NavBar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-custom">
+      <a class="navbar-brand" href="index.html"> <i class="fas fa-globe-europe"></i>Ireland Tours</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"> <i class="fas fa-home"></i>Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="timetable.html"> <i class="fas fa-calendar-alt"></i>Timetable</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tours.html"> <i class="fas fa-map-marked-alt"></i>Tours</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html"> <i class="fas fa-calendar-alt"></i>Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--Email-API-->
+    <section class="container-fluid">
+      <div class="row bg-color-contact">
+        <div class="col">
+          <h3 class="contact-heading uppercase text-center">Would like to speak to a sales agent?</h3>
+          <h5 class="uppercase text-center contact-heading">Fill in your details below, and we'll get back to you!</h5>
+          <div class="center-form">
+            <form onsubmit="return sendMail(this);">
+              <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required >
+              <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required >
+              <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Query Description..." required></textarea>
+              <div class="form-row text-center">
+                <div class="col">
+                  <button type="submit" class="btn btn-secondary">Send Query Request</button>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
+      </div>
     </section>
-      <!--Footer-Area-->
-      <footer class="page-footer font-small pt-4 footer-background footer-background-tours">
-         <div class="container-fluid text-center text-md-left">
-            <div class="row quotes-footer">
-               <div class="col-md-6 mt-md-0 mt-3">
-                  <h5 class="text-uppercase"><em><strong>Inspirational Quotes</strong></em></h5>
-                  “I feel more and more the time wasted that is not spent in Ireland.”
-                  <br><em><strong>~Lady Gregory.</strong></em>
-                 
-                  <br>
-                  “Life is either a daring adventure or nothing at all” 
-                   <br><em><strong>~ Helen Keller.</strong></em>
-                
-                  <br>
-                 “The World is a book and those who do not travel read only a page.” 
-                  <br><em><strong>~ Saint Augustine.</strong></em>
-               </div>
-               <hr class="clearfix w-100 d-md-none pb-3">
-               <div class="col-md-3 mb-md-0 mb-3">
-                  <h5 class="text-uppercase follow-us-footer">Follow Us</h5>
-                  <ul class="list-unstyled social-links">
-                    <li>
-                        <a type="button" href="https://www.facebook.com/" target="_blank"
-                           class="facebook-icon facebook-icon fa-lg">
-                        <i class="fab fa-facebook"></i>
-                        </a>
-                     </li>
-                     <li>
-                        <a type="button" href="https://twitter.com/explore" target="_blank"
-                           class="twitter-icon twitter-icon fa-lg">
-                        <i class="fab fa-twitter"> </i>
-                        </a>
-                     </li>
-                     <li>
-                        <a type="button" href="https://www.linkedin.com/" target="_blank"
-                           class="linkedin-icon linkedin-icon fa-lg">
-                        <i class="fab fa-linkedin-in"></i>
-                        </a>
-                     </li>
-                     <li>
-                        <a type="button" href="https://www.instagram.com/" target="_blank"
-                           class="instagram-icon instagram-icon fa-lg">
-                        <i class="fab fa-instagram"></i>
-                        </a>
-                     </li>
-                  </ul>
-               </div>
-               <div class="col-md-3 mb-md-0 mb-3">
-                  <h5 class="text-uppercase find-us-footer">Find Us</h5>
-                  <ul class="list-unstyled find-us-links">
-                     <li>
-                        <a> <i class="fas fa-address-book"></i> Dublin, Ireland, 123 Eden Quay</a>
-                     </li>
-                     <br>
-                     <li>
-                        <a><i class="fas fa-envelope"></i> info@IrelandTours.com</a>
-                     </li>
-                     <br>
-                     <li>
-                        <a> <i class="fas fa-phone-square"></i> + 123 456 78 90</a>
-                     </li>
-                  </ul>
-               </div>
-            </div>
-         </div>
-         <div class="footer-copyright text-center py-3 footer-text">© 2020 Copyright:
-            <a>IrelandTours</a>
-         </div>
-      </footer>
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-         integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-      <script src="assets/js/sendEmail.js"></script>
-   </body>
+    <!--Footer-Area-->
+    <footer class="page-footer font-small pt-4 footer-background footer-background-tours">
+      <div class="container-fluid text-center text-md-left">
+        <div class="row quotes-footer">
+          <div class="col-md-6 mt-md-0 mt-3">
+            <h5 class="text-uppercase"><em><strong>Inspirational Quotes</strong></em></h5>
+            “I feel more and more the time wasted that is not spent in Ireland.”
+            <br><em><strong>~Lady Gregory.</strong></em>
+            <br>
+            “Life is either a daring adventure or nothing at all” 
+            <br><em><strong>~ Helen Keller.</strong></em>
+            <br>
+            “The World is a book and those who do not travel read only a page.” 
+            <br><em><strong>~ Saint Augustine.</strong></em>
+          </div>
+          <hr class="clearfix w-100 d-md-none pb-3">
+          <div class="col-md-3 mb-md-0 mb-3">
+            <h5 class="text-uppercase follow-us-footer">Follow Us</h5>
+            <ul class="list-unstyled social-links">
+              <li>
+                <a type="button" href="https://www.facebook.com/" target="_blank"
+                  class="facebook-icon facebook-icon fa-lg">
+                <i class="fab fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a type="button" href="https://twitter.com/explore" target="_blank"
+                  class="twitter-icon twitter-icon fa-lg">
+                <i class="fab fa-twitter"> </i>
+                </a>
+              </li>
+              <li>
+                <a type="button" href="https://www.linkedin.com/" target="_blank"
+                  class="linkedin-icon linkedin-icon fa-lg">
+                <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li>
+                <a type="button" href="https://www.instagram.com/" target="_blank"
+                  class="instagram-icon instagram-icon fa-lg">
+                <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3 mb-md-0 mb-3">
+            <h5 class="text-uppercase find-us-footer">Find Us</h5>
+            <ul class="list-unstyled find-us-links">
+              <li>
+                <a> <i class="fas fa-address-book"></i> Dublin, Ireland, 123 Eden Quay</a>
+              </li>
+              <br>
+              <li>
+                <a><i class="fas fa-envelope"></i> info@IrelandTours.com</a>
+              </li>
+              <br>
+              <li>
+                <a> <i class="fas fa-phone-square"></i> + 123 456 78 90</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright text-center py-3 footer-text">© 2020 Copyright:
+        <a>IrelandTours</a>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="assets/js/sendEmail.js"></script>
+  </body>
 </html>
