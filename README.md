@@ -122,8 +122,8 @@ The following tests have been used to ensure proper site functionality:
 
 - [W3C HTML Validator](https://validator.w3.org/): This is a validator that checks the markup of Web documents in HTML.
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/): This is a validator that checks the markup validity of Web documents in CSS.
-- [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB): Inspecting on overflow errors
-- [Autoprefixer CSS online](https://autoprefixer.github.io/): Autoprefixer is a PostCSS plugin which parses your CSS and adds vendor prefixes
+
+After using W3C ive noticed a couple of errors, which after I had taken time to fix them, my terminal now shows no no errors, my console retutns no errors, issues or problems.
 
 ## Deployment
 This site is hosted using GitHub pages on my repositories, its deployed directly from the master branch. The deployed site will update automatically when a  new commit(s) to the master branch(I have noticed a short delay image rendering once pushed to the master branch for website viewing on a live demo). In order for the site to deploy correctly on GitHub pages, the landing page must be named `index.html` and not inside any files or folders.
