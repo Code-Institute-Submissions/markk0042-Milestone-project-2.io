@@ -63,7 +63,7 @@ The proper order of the pages is created to trigger the reader to contact us.
 ### Skeleton:
 
 By using figma the following wireframes were created:
-()
+Landing Page **[here](https://github.com/markk0042/Milestone-project-2.io/blob/master/Wireframe-home-page.png)**
 
 ### Surface:
 I used White and Grey colours so they were not harsh on the eye and text would be easily readable.
@@ -94,7 +94,7 @@ I would also like to add a video compilation of different tours that capture dif
 ## Testing
 All links function as expected, the social media links will open the link on a new page using target_blank method.
 The "Send Query" button on the contact page will inniatiate the SDK used from email.js to send my email a copy of the users query with their name and email attached to the email the send.
-The site when firstly launched was tested by 15 people of my choice, some reported the jumbotron image was noit loading this was due to the css not having,
+The site when firstly launched was tested by 15 people of my choice, some reported the jumbotron image was not loading this was due to the css not having,
 
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -131,11 +131,15 @@ To cut any ties with this GitHub repository, type `git remote rm origin` into th
 ## Credits
 
 ### Content
-I used information from 
+- I used information from 
 (https://www.roadaffair.com/best-places-to-visit-in-ireland/).
 (https://en.wikipedia.org/wiki/List_of_tourist_attractions_in_Ireland).,
-for the information on the tour section, then the quotes I used were from 
+- For the information on the tour section, then the quotes I used were from 
 (https://quotabulary.com/famous-irish-quotes).
+- I used assistance from youtube videos such as 
+(https://youtu.be/Zxf1mnP5zcw). As I ran into some issues with having my template, and map renerding on my site.
+- I used Inspiration from `Code Institutes` form, from our previous projects to add a contact us form to my current project.
+- 
 
 ### Media
 All photos were taken from [Pixabay](https://pixabay.com/), a stock image library.
