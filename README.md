@@ -64,7 +64,7 @@ The structure of the pages is created to trigger the reader to contact us as a f
 
 By using Balsamic the following wireframes were created:
 Landing Page **[here](https://github.com/markk0042/Milestone-project-2.io/blob/master/Wireframe-home-page.png)**
-Timetable Page **[here](https://github.com/markk0042/Milestone-project-2.io/blob/master/Wireframe-home-page.png)**
+Timetable Page **[here](https://github.com/markk0042/Milestone-project-2.io/blob/master/Time-Table.html.pdf)**
 Tour Page **[here](https://github.com/markk0042/Milestone-project-2.io/blob/master/Wireframe-home-page.png)**
 Contact Us **[here](https://github.com/markk0042/Milestone-project-2.io/blob/master/Wireframe-home-page.png)**
 
